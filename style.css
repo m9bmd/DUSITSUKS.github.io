@@ -1,0 +1,104 @@
+body
+{
+    margin: 0px;
+    background-color: yellow;
+    
+}
+.yellow
+{
+    background-color: yellow;
+    color: black;
+}
+input[type=text]
+{
+    width: 50%;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 4px;
+}
+input[type=text]:focus {
+    outline: none;
+    border: 2px solid yellow;
+}
+button
+{
+    padding: 12px;
+    width: 10%;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    
+}
+button:hover
+{
+    background-color: rgb(255, 238, 0);
+    color: black;
+    border: 2px solid black;
+    transition: all 0.7s ease 0s;
+}
+
+
+.container
+{   
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.container h1
+{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 4em;
+}
+.items
+{
+    margin: 5px;
+    text-align: center;
+    flex-grow: 1;
+}
+.container-2
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px 15px;    
+}
+.itemss
+{
+    align-self: flex-start;
+    font-family: 'Major Mono Display';
+    font-size: 1.2rem;
+}
+.white
+{
+    background-color: black;
+    color: white;
+}
+.socials
+{
+    display: flex;
+    flex-basis: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.social 
+{
+    margin: 15px;
+    font-size: 1.3em;
+}
+.social a
+{
+    color: white;
+}
+.social a:hover
+{
+    color:yellow;
+    transition: all 0.3s ease 0s;
+}
