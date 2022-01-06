@@ -52,7 +52,7 @@ button:hover
 
 .container
 {   
-    background-color: black;
+    background: black;
     color: white;
     display: flex;
     flex-flow: row wrap;
@@ -86,7 +86,6 @@ button:hover
 
 .itemss
 {
-
     line-height: 1.6;
     align-self: flex-start;
     font-family: 'Asap Condensed', sans-serif;
